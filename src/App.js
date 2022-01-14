@@ -1,8 +1,9 @@
 import './App.css';
+import PreguntasFrecuentes from './components/PreguntasFrecuentes/PreguntasFrecuentes';
 
 function App() {
   return (
-    <h1 className='bg-indigo-600'>App</h1>
+    <PreguntasFrecuentes/>
   );
 }
 
