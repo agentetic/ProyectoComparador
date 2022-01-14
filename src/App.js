@@ -5,9 +5,8 @@ import Companies from './components/Companies/Companies';
 function App() {
   return (
     <>
-      <PreguntasFrecuentes/>
       <Companies />
-    
+      <PreguntasFrecuentes/>
     </>
     );
 }

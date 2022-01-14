@@ -26,7 +26,7 @@ const Acordeon = ({title, collapse}) => {
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target={"#"+collapse}
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls={collapse}
             >
                 {title}
@@ -34,7 +34,7 @@ const Acordeon = ({title, collapse}) => {
             </h2>
             <div
             id={collapse}
-            className="accordion-collapse collapse show"
+            className="accordion-collapse collapse"
             aria-labelledby="headingOne"
             data-bs-parent="#accordionExample"
             >
