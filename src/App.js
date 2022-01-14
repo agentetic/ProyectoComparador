@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Companies from './components/Companies/Companies';
 
 function App() {
   return (
-    <h1 className='bg-indigo-600'>App</h1>
-  );
+    <Companies />
+    );
 }
 
 export default App;
