@@ -1,16 +1,17 @@
 import CardsCompanies from '../CardsCompanies/CardsCompanies';
-import { useState } from 'react';
 
 const Companies = () => {
 
-    const [dataCompanies, setDataCompanies] = useState([
+    const dataCompanies = [
         {
             name: "axa",
-            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/2048px-AXA_Logo.svg.png'
+            url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/AXA_Logo.svg/2048px-AXA_Logo.svg.png',
+            id: 1
         },
         {
             name: 'mapre',
-            url: 'http://www.numeroservicioalcliente.com/wp-content/uploads/2017/05/Mapfre-01.jpg'
+            url: 'http://www.numeroservicioalcliente.com/wp-content/uploads/2017/05/Mapfre-01.jpg',
+            id: 2
         },
         {
             name: 'mutuaMadrid',
@@ -100,17 +101,15 @@ const Companies = () => {
             name: 'plusUltra',
             url: 'https://www.grupocatalanaoccidente.com/img/esp/gco/ilg/-/logo%20pu_ndp.jpg'
         }
-    ])
+    ]
 
     return (
         <div className='bg-slate-100 flex-column align-center'>
             <h1 className='text-center text-xl font-bold text-blue-900 pt-20 pb-5'>Comparamos ofertas de todas las compañias</h1>
             <div className='flex flex-wrap justify-center pb-10'>
-                {dataCompanies.map((dataCompanies) => {
-                        return (
-                                <CardsCompanies name={dataCompanies.name} url={dataCompanies.url} />
-                        )
-                    })}
+                {dataCompanies.map((dataCompanies) => (
+                    <CardsCompanies  key={dataCompanies.id} name={dataCompanies.name} url={dataCompanies.url} />
+                ) )}
             </div>
         </div>
     )
