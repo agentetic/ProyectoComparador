@@ -1,11 +1,12 @@
+import "./Accordion.css"
 
-const Acordeon = ({title, collapse}) => {
+const Accordion = ({title, collapse}) => {
     return (
         <div className="accordion-item bg-white border border-gray-200">
             <h2 className="accordion-header mb-0" id="headingOne">
             <button
                 className="
-                text-blue-900 
+                text-colortitulo
                 font-semibold 
                 text-xl
                 accordion-button
@@ -46,4 +47,4 @@ const Acordeon = ({title, collapse}) => {
     )
 }
 
-export default Acordeon
+export default Accordion

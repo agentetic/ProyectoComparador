@@ -1,7 +1,7 @@
 import React from 'react'
 import Companies from '../components/Companies/Companies'
 import News from '../components/news/news'
-import PreguntasFrecuentes from '../components/PreguntasFrecuentes/PreguntasFrecuentes'
+import Faq from '../components/FAQ/Faq'
 import Header from '../components/Header/Header'
 
 const Home = () => {
@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Header/>
       <Companies />
-      <PreguntasFrecuentes />  
+      <Faq />  
       <News />  
     </>
   )
