@@ -1,4 +1,5 @@
 import CardsCompanies from '../CardsCompanies/CardsCompanies';
+import './Companies.css'
 
 const Companies = () => {
 
@@ -126,9 +127,9 @@ const Companies = () => {
     ]
 
     return (
-        <div className='bg-backgroundMain flex-column align-center'>
+        <div className='bg-backgroundMain flex-nowrap justify-center'>
             <h1 className='text-center text-4xl font-semibold text-colortitulo pt-36 pb-5'>Comparamos ofertas de todas las compañias</h1>
-            <div className='flex flex-wrap justify-center pb-10'>
+            <div className='max-width flex flex-wrap justify-center pb-10'>
                 {dataCompanies.map((dataCompanies) => (
                     <CardsCompanies  key={dataCompanies.id} name={dataCompanies.name} url={dataCompanies.url} />
                 ) )}
