@@ -1,0 +1,41 @@
+.News {
+  height: 50vh;
+  padding: 50px 50px 0 50px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.News h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.News__container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.News__post {
+  margin: 20px;
+  max-width: 185px;
+}
+
+.News__post h3 {
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+}
+
+.News__post p {
+  text-align: justify;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.News__post img {
+  width: 100%;
+  object-fit: contain;
+}
+
