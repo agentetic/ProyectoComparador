@@ -1,0 +1,9 @@
+
+.footer-center {
+    /* max-width: 1280px; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
