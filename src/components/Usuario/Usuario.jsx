@@ -1,8 +1,8 @@
 import React from 'react'
 
 const Usuario = ({opcion1, opcion2}) => (
-    <div className='flex flex-row justify-end mr-16 pr-10'>
-        <select>
+    <div className='flex flex-row justify-end mr-28 usuario'>
+        <select className='bg-gray-100'>
             <option>{opcion1}</option>
             <option>{opcion2}</option>
         </select>
