@@ -1,21 +1,16 @@
-import React from 'react'
-import Companies from '../components/Companies/Companies'
-import News from '../components/news/news'
-import Faq from '../components/FAQ/Faq'
-import Header from '../components/Header/Header'
-import Footer from '../components/footer/Footer'
-
+import React from 'react';
+import Companies from '../components/Companies/Companies';
+import News from '../components/news/news';
+import Faq from '../components/FAQ/Faq';
 
 const Home = () => {
-  return(
+  return (
     <>
-      <Header/>
       <Companies />
-      <Faq />  
-      <News /> 
-      <Footer /> 
+      <Faq />
+      <News />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
