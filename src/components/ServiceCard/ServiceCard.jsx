@@ -8,7 +8,6 @@ const ServiceCard = ({ data }) => {
   // 1.La prop number que es el numero de telefono de la compañia
   // 1.La prop date que muestra el horario en que la compañia opera
   // Posiblemente se necesitaran mas props asi que las ire agregando gradualmente
-  console.log(image);
   return (
     <div className='border-2 flex border-[#CBCBCB] rounded-[7px]'>
       <section className='pt-[5px] pb-[14px] px-[10px] mr-auto'>

@@ -30,16 +30,13 @@ const News = () => {
     },
   ];
   return (
-    <div className='News'>
+    <div className='News bg-white'>
       <h2>Ultimas Noticias</h2>
       <section className='News__container'>
         {item.map((item) => (
           <div className='News__post' key={item.id}>
-            <img
-              src={item.url}
-              alt={item.name}
-            />
- 
+            <img src={item.url} alt={item.name} />
+
             <h3>12/12/2020 - 13.50h</h3>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing

@@ -5,11 +5,13 @@ import Faq from '../components/FAQ/Faq';
 
 const Home = () => {
   return (
-    <>
-      <Companies />
-      <Faq />
-      <News />
-    </>
+    <div className='flex justify-center bg-gray'>
+      <div className='max-w-screen-xl'>
+        <Companies />
+        <Faq />
+        <News />
+      </div>
+    </div>
   );
 };
 
