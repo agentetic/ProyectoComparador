@@ -1,8 +1,6 @@
 .News {
-  height: 50vh;
   padding: 50px 50px 0 50px;
-  width: 80%;
-  margin-left: 10%;
+  min-height: 45vh;
 }
 
 .News h2 {
@@ -12,7 +10,7 @@
   margin-bottom: 30px;
 }
 
-.News__container{
+.News__container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -38,4 +36,3 @@
   width: 100%;
   object-fit: contain;
 }
-

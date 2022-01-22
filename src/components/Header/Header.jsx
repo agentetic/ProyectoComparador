@@ -1,13 +1,20 @@
-import React from 'react'
+import React from 'react';
 import Nav from '../Nav/Nav';
 import Usuario from '../Usuario/Usuario';
-import './Header.css'
+import './Header.css';
 
 const Header = () => (
-    <div className='mt-20 bg-gray-100 flex-wrap header'>
-        <Usuario opcion1={'Mi cuenta'} opcion2={'Registrarse'} />
-        <Nav item1={'Energia'} item2={'Seguros'} item3={'Internet y telefonia'} item4={'Finanzas'}/>
+  <div className='Header'>
+    <Usuario opcion1={'Mi cuenta'} opcion2={'Registrarse'} />
+    <div className='flex justify-center '>
+      <Nav
+        item1={'Energia'}
+        item2={'Seguros'}
+        item3={'Internet y telefonia'}
+        item4={'Finanzas'}
+      />
     </div>
-)
+  </div>
+);
 
 export default Header;

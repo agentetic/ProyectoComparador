@@ -1,9 +1,15 @@
-
 .footer-center {
-    /* max-width: 1280px; */
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    /* margin: 0 auto; */
+  /* max-width: 1280px; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+
+.Footer__img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 0;
 }
